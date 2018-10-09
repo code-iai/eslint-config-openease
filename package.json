@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-openease",
+  "version": "0.0.0",
+  "description": "ESLint Configuration File for the Open-Ease-Project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "University of Bremen",
+  "peerDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-plugin-import": "^2.14.0"
+  },
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^5.3.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
