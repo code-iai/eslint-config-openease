@@ -1,6 +1,6 @@
 # eslint-config-openease
 
-This package provides OpenEase's JS .eslintrc.js (without React plugins) as an extensible shared config which is based on version 13.1.0 of AirBnb's base eslint-config.
+This package provides OpenEase's JS .eslintrc.js (without React plugins) as an extensible shared config which is based on []version 13.1.0 of AirBnb's base eslint-config](https://www.npmjs.com/package/eslint-config-airbnb-base/v/13.1.0).
 
 ## Usage
 
