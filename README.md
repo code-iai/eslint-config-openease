@@ -1,7 +1,5 @@
 # eslint-config-openease
 
-```[![npm version](https://badge.fury.io/js/eslint-config-airbnb-base.svg)](http://badge.fury.io/js/eslint-config-airbnb-base)```
-
 This package provides OpenEase's JS .eslintrc.js (without React plugins) as an extensible shared config which is based on version 13.1.0 of AirBnb's base eslint-config.
 
 ## Usage
@@ -51,14 +49,3 @@ If you use yarn, run `npm info "eslint-config-openease@latest" peerDependencies`
   ```
 
 2. Add `"extends": "airbnb-base"` to your .eslintrc.
-
-
-```sh 
-## Improving this config
-
-Consider adding test cases if you're making complicated rules changes, like anything involving regexes. Perhaps in a distant future, we could use literate programming to structure our README as test cases for our .eslintrc?
-
-You can run tests with `npm test`.
-
-You can make sure this module lints with itself using `npm run lint`.
-```
