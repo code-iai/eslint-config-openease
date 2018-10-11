@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-openease",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "ESLint configuration File for the Open-Ease-Project.",
   "main": "index.js",
   "scripts": {
