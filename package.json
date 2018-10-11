@@ -1,21 +1,35 @@
 {
   "name": "eslint-config-openease",
   "version": "0.0.0",
-  "description": "ESLint Configuration File for the Open-Ease-Project.",
+  "description": "ESLint configuration File for the Open-Ease-Project.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":{
+    "type": "git",
+    "url": "https://github.com/code-iai/eslint-config-openease"
   },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "author": "University of Bremen",
+  "contributors": [
+    {
+      "name": "Navid M. Jadid",
+      "email": "jadid.navid@yahoo.de"
+    }
+  ],
+  "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/code-iai/eslint-config-openease/issues"
+  },
+  "homepage": "https://github.com/code-iai/eslint-config-openease",
   "peerDependencies": {
     "eslint": "^5.3.0",
     "eslint-plugin-import": "^2.14.0"
   },
-  "license": "ISC",
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.3.0",
