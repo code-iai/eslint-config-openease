@@ -7,14 +7,4 @@ module.exports = {
         // we support node 4
         "prefer-destructuring": 0,
     },
-    settings: {
-        "import/resolver": {
-            "node": {
-                "extensions": [
-                    ".js",
-                    ".jsx"
-                ]
-            }
-        }
-    }
 };
