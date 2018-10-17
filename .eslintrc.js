@@ -7,7 +7,7 @@ module.exports = {
         // we support node 4
         "prefer-destructuring": 0,
     },
-    "settings": {
+    settings: {
         "import/resolver": {
             "node": {
                 "extensions": [
@@ -17,4 +17,4 @@ module.exports = {
             }
         }
     }
-}
+};
