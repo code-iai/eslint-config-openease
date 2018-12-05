@@ -1,4 +1,4 @@
-#eslint-config-openease 
+# eslint-config-openease 
 
 [![npm version](https://badge.fury.io/js/eslint-config-openease.svg)](https://badge.fury.io/js/eslint-config-openease)
 [![Build Status](https://travis-ci.org/code-iai/eslint-config-openease.svg?branch=master)](https://travis-ci.org/code-iai/eslint-config-openease)
