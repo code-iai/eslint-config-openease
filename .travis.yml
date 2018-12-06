@@ -6,7 +6,7 @@ deploy:
   provider: npm
   email: navid@uni-bremen.de
   api_key:
-    secure: ci1Mh6OzKGIPecVvzg/eKV2GkvScHlRhMRyPOoy8FSncfHEKxkdm+8itKbcZdvBvj4jESxozz+dzIfqgM9+7RESqGIIHgGrX1BVRo8OhiFg0Q+BcK6Q1RQ3eyKVrTdiV98BiShkreUnygycPDKxuc1DFrnGxlsza4zaeOiz7EyZwYIFnM6YNIp6bAH4yXWw03pytftZYfgE29LTopWX9xVvYnDW8YpSlPSNIr5WeHTiPHzrRkpz9/0A4pvepdWcyTK6r53pioP3qFOQGiLEniYGSZVa8++jqboOBbWKn7aWRXpCdnqTYtwo4vjzZC0ZzlFshOpYCpXNEfbX88gFC28NV8CrsLhCpidgu3yP0UVYJ/7SVqixYfkHQXEEyTJGEO1bKvW4IQRe15wMnt0O/R+sXAeuhPiIUHTHVvUkZ7/XhxS8W5Hhk4WIiwxDHn5f7yg85Ijg4Hky+EZFTEq6fsveEhaVQmI19ZfDi5kui5PMegLvSN1zdOJ/2TzdOZ2dzJ6I3jd3zpf5ltKZFZsDOjDHJSibNJ7G9Dfv48AS3eEDUqmYheuXmEiggicj/dPw0xquUUhtW/p5CYNgJek3CjuumC6nAGt+u6gfOtDbeB6warj27enFILDzpHQyGadnZoCptjDDsek0TA7EizOzdpC/6olEKBrlQ0OcKHQu8/Ds=
+    secure:
   on:
     tags: true
     repo: code-iai/eslint-config-openease
