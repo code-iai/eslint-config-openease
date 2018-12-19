@@ -4,7 +4,13 @@
   "description": "ESLint configuration File for the Open-Ease-Project.",
   "main": "index.js",
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Warning: no test specified\" && exit 0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   },
   "repository": {
     "type": "git",
@@ -30,6 +36,8 @@
     "eslint-restricted-globals": "^0.1.1"
   },
   "devDependencies": {
+    "commitizen": "^3.0.5",
+    "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.3.0",
     "eslint-plugin-import": "^2.14.0",
     "semantic-release": "^15.13.1"
