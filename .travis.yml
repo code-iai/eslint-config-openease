@@ -2,12 +2,19 @@ language: node_js
 node_js:
 - stable
 cache: npm
-deploy:
-  provider: npm
-  email: navid@uni-bremen.de
-  api_key:
-    secure:
-  on:
-    tags: true
-    repo: code-iai/eslint-config-openease
-    branch: release
+
+jobs:
+  include:
+    # Define the release stage that runs semantic-release
+    - stage: release
+      node_js: lts/*
+      # Advanced: optionally overwrite your default `script` step to skip the tests
+      # script: skip
+      deploy:
+        provider: npm
+        api_key: $NPM_TOKEN
+        on:
+          repo: code-iai/eslint-config-openease
+          branch: master
+        script:
+          - npx semantic-release

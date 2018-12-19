@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/code-iai/eslint-config-openease.svg?branch=master)](https://travis-ci.org/code-iai/eslint-config-openease)
 [![npm version](https://badge.fury.io/js/eslint-config-openease.svg)](https://badge.fury.io/js/eslint-config-openease)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 This package provides OpenEase's JS .eslintrc.js (without React plugins) as an extensible shared config which is based on [version 13.1.0 of AirBnb's base eslint-config](https://www.npmjs.com/package/eslint-config-airbnb-base/v/13.1.0).
 
