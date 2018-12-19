@@ -12,6 +12,7 @@ jobs:
       # script: skip
       deploy:
         provider: npm
+        email: navid@uni-bremen.de
         api_key: $NPM_TOKEN
         on:
           repo: code-iai/eslint-config-openease
