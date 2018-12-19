@@ -18,4 +18,4 @@ jobs:
           repo: code-iai/eslint-config-openease
           branch: master
         script:
-          - npx semantic-release
+          - npm semantic-release
