@@ -1,10 +1,12 @@
 {
   "name": "eslint-config-openease",
-  "version": "0.1.7",
+  "version": "0.0.0-development",
   "description": "ESLint configuration File for the Open-Ease-Project.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
+    "lint": "eslint ./",
+    "pretest": "npm run lint",
     "semantic-release": "semantic-release",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },

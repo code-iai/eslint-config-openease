@@ -5,6 +5,11 @@ node_js:
 
 cache: npm
 
+stages:
+  - name: deploy
+    # require the branch name to be master (note for PRs this is the base branch name)
+    if: branch = master
+
 jobs:
   include:
     # Define the release stage that runs semantic-release
@@ -16,4 +21,4 @@ jobs:
         provider: script
         skip_cleanup: true
         script:
-          - npm semantic-release
+          - npx semantic-release
