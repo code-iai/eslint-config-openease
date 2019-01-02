@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-openease",
-  "version": "0.1.7-development",
+  "name": "@code-iai/eslint-config-openease",
+  "version": "0.0.0-development",
   "description": "ESLint configuration File for the Open-Ease-Project.",
   "main": "index.js",
   "scripts": {
@@ -43,7 +43,7 @@
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^5.3.0",
     "eslint-plugin-import": "^2.14.0",
-    "semantic-release": "^15.13.1"
+    "semantic-release": "^15.13.2"
   },
   "peerDependencies": {
     "eslint": "^5.3.0",
