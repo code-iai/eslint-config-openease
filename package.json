@@ -10,6 +10,9 @@
     "semantic-release": "semantic-release",
     "test": "echo \"Warning: no test specified\" && exit 0"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
